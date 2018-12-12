@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activitybackground"
+    tools:context="khadayate.karan.my_app.History">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="@drawable/textviewbackground"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/historytv"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="clearFile"
+        android:background="@drawable/buttonbackground"
+        android:text="Delete data"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>
